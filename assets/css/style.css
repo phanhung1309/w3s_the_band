@@ -267,8 +267,7 @@ html {
 .place-item {
     float: left;
     width: 33.33333%;
-    padding: 0 8px 100px;
-    
+    padding: 0 8px 100px;  
 }
 
 .place-img {

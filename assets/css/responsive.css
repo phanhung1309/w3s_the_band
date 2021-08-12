@@ -61,6 +61,25 @@
     .moblie-menu-btn:hover .ti-menu {
         color: #000;
     }
+
+    /* Team section */
+    #content .member-item {
+        width: 100%;
+    }    
+    #content .member-img {
+        width: 60%;
+        margin-bottom: 16px;
+    }
+
+    /* Place tour */
+    .tour-section {
+        padding-bottom: 64px;
+    }
+    
+    .place-item {
+        width: 100%;
+        padding: 0 8px 16px;
+    }
 }
 
 /* Tablet: width >= 740px and width < 1024px */
