@@ -82,6 +82,10 @@
     .contact-name {
         margin-top: 32px;
     }
+
+    input.contact-submit {
+        padding: 15px 16px;
+    }
 }
 
 /* Tablet: width >= 740px and width < 1024px */
