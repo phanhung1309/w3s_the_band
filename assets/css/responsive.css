@@ -1,0 +1,55 @@
+/* Mobile: width < 740px */
+@media only screen and (max-width: 46.1875em) {
+    #content .content-section {
+        max-width: 100%;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    /* Moblie menu */
+    #header {
+        overflow: hidden;
+    }
+
+    #nav > li {
+        display: block;
+    }
+
+    .search-btn {
+        display: none;
+    }
+
+    .moblie-menu-btn {
+        float: right;
+        display: block;
+    }
+
+    .moblie-menu-btn .menu-icon {
+    color: #fff;
+    font-size: 20px;
+    line-height: 46px;
+    padding: 0 24px;
+    }
+
+    .moblie-menu-btn:hover {
+        background-color: #ccc;
+    }
+
+    .moblie-menu-btn:hover .ti-menu {
+        color: #000;
+    }
+}
+
+/* Tablet: width >= 740px and width < 1024px */
+@media only screen and (min-width: 46.25em) and (max-width: 63.9375em) {
+    #content .content-section {
+        max-width: 100%;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+}
+
+/* PC */
+@media only screen and (min-width: 64em) {
+    
+}

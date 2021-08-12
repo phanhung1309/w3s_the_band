@@ -53,7 +53,7 @@ html {
     top: 0;
     left: 0;
     right: 0;
-    height: 46.4px;
+    height: 46px;
     background-color: #000;
     z-index: 1;
 }
@@ -81,7 +81,7 @@ html {
 
 #nav li a {
     text-decoration: none;
-    line-height: 46.4px;
+    line-height: 46px;
     padding: 0 24px;
     display: block;
 }
@@ -118,6 +118,10 @@ html {
     line-height: 38.4px;
 }
 
+.moblie-menu-btn {
+    display: none;
+}
+
 .search-btn {
     float: right;
 }
@@ -130,13 +134,13 @@ html {
 .search-btn .ti-search {
     color: #fff;
     font-size: 20px;
-    line-height: 46.4px;
+    line-height: 46px;
     padding: 0 24px;
 }
 
 #slider {
     position: relative;
-    margin-top: 46.4px;
+    margin-top: 46px;
     padding-top: 50%;
     background: url('/assets/img/slider/chicago.jpg') top center / cover no-repeat;
 }
@@ -488,24 +492,6 @@ input.contact-submit:hover {
     }
 }
 
-/* Mobile: width < 740px */
-@media only screen and (max-width: 46.1875em) {
-    
-}
-
-/* Tablet: width >= 740px and width < 1024px */
-@media only screen and (min-width: 46.25em) and (max-width: 63.9375em) {
-    #content .content-section {
-        max-width: 100%;
-        padding-left: 16px;
-        padding-right: 16px;
-    }
-}
-
-/* PC */
-@media only screen and (min-width: 64em) {
-    
-}
 
 
 

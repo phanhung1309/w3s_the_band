@@ -37,7 +37,12 @@
             <div class="search-btn"> 
                 <i class="ti-search"></i>
             </div>
-            <!-- End: Search button -->s
+            <!-- End: Search button -->
+
+            <!-- Moblie menu button -->
+            <div class="moblie-menu-btn"> 
+                <i class="menu-icon ti-menu"></i>
+            </div>
         </div>
 
         <div id="slider">
@@ -212,7 +217,6 @@
     </div>
 </body>
 
-
 <!-- Show/hide modal -->
 <script>
     const buyBtns = document.querySelectorAll('.js-buy-btn') 
@@ -238,7 +242,32 @@
     modalContainer.addEventListener('click', function(event){
         event.stopPropagation()
     })
+</script>
 
+<!-- JS Mobile meunu -->
+<script>
+    const header = document.getElementById('header')
+    const menuBtn = document.querySelector('.menu-icon')
+    const headerHeight = header.clientHeight
+
+    // Open/Close menu button
+    function changeHeightHeader() {
+        var isClose = header.clientHeight === headerHeight
+        if(isClose) {
+            header.style.height = 'auto'
+        } else {
+            header.style.height = null
+        }
+    }
+    menuBtn.addEventListener('click', changeHeightHeader)
+    
+    //Touch on 1 element on menu then close menu
+    var menuItems = document.querySelectorAll('#nav li a[href*="#"]')
+    for(var menuItem of menuItems) {
+        menuItem.addEventListener('click', function() {
+            header.style.height = null
+        })
+    }
 </script>
 
 </html>
