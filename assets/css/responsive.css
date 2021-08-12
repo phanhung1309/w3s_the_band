@@ -11,8 +11,17 @@
         overflow: hidden;
     }
 
+    #nav {
+        display: block;
+    }
+
     #nav > li {
         display: block;
+        border: 0.5px solid #333;
+    }
+
+    #nav > li:first-child {
+        display: inline-block;
     }
 
     .search-btn {
@@ -22,6 +31,9 @@
     .moblie-menu-btn {
         float: right;
         display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
     }
 
     .moblie-menu-btn .menu-icon {
