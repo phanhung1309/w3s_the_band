@@ -24,6 +24,10 @@
         display: inline-block;
     }
 
+    #nav .subnav {
+        position: initial;
+    }
+
     .search-btn {
         display: none;
     }
