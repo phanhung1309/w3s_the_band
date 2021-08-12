@@ -262,8 +262,13 @@
     //Touch on 1 element on menu then close menu
     var menuItems = document.querySelectorAll('#nav li a[href*="#"]')
     for(var menuItem of menuItems) {
-        menuItem.addEventListener('click', function() {
-            header.style.height = null
+        var isParentMenu = menuItem.nextElementSibling && menuItem.nextElementSibling.contains('.subnav')
+        menuItem.addEventListener('click', function(event) {
+            if(isParentMenu) {
+                event.preventDefault
+            } else {
+                header.style.height = null
+            }
         })
     }
 </script>
