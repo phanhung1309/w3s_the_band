@@ -3,12 +3,6 @@
     .s-col1, .s-full-width {
         width: 100% !important;
     }
-    
-    #content .content-section {
-        max-width: 100%;
-        padding-left: 16px;
-        padding-right: 16px;
-    }
 
     /* Moblie menu */
     #header {
@@ -84,14 +78,46 @@
         width: 100%;
         padding: 0 8px 16px;
     }
+
+    .contact-name {
+        margin-top: 32px;
+    }
 }
 
 /* Tablet: width >= 740px and width < 1024px */
 @media only screen and (min-width: 46.25em) and (max-width: 63.9375em) {
+    #nav .subnav a {
+        line-height: 46.4px;
+    }
+}
+
+/* Tablet and Mobile */
+@media only screen and (max-width: 63.9375em) {
     #content .content-section {
         max-width: 100%;
         padding-left: 16px;
         padding-right: 16px;
+    }
+
+    .place-buy-btn {
+        padding: 15px 16px;
+    }
+
+    input.form-control {
+        padding: 14px;
+    }
+
+    .contact-info {
+        line-height: 2;
+    }
+
+    #footer .social-media a {
+        margin: 0 8px;
+    }
+
+    a.copyright {
+        padding: 12px 0;
+        display: inline-block;
     }
 }
 
