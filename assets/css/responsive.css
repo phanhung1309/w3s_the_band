@@ -26,6 +26,13 @@
 
     #nav .subnav {
         position: initial;
+        background-color: #000;
+    }
+
+    #nav .subnav a {
+        color: #fff;
+        padding: 4px 40px;
+        border: 0.5px solid #333;
     }
 
     .search-btn {
